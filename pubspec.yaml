@@ -1,0 +1,54 @@
+name: hrapp
+description: Managing your people.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  animate_do: ^2.0.0
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  firebase_auth: ^3.2.0
+  firebase_core: ^1.10.0
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^1.3.1
+  flutter_signin_button: ^2.0.0
+  get: ^4.3.8
+  google_sign_in: ^5.2.1
+  http: ^0.13.4
+  intl: ^0.17.0
+  introduction_screen: ^2.1.0
+  lottie: ^1.2.1
+  provider: ^6.0.1
+  rename: ^2.0.1
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/ekrut.png"
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/ic_launcher.png"
+  image_path_android: "assets/ic_launcher.png"
+  adaptive_icon_background: "assets/back.png"
+  adaptive_icon_foreground: "assets/fore.png"

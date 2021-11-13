@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "422483824014",
+    "project_id": "ekrut-hr",
+    "storage_bucket": "ekrut-hr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422483824014:android:c7754b73445f980a76e8df",
+        "android_client_info": {
+          "package_name": "com.karyasa.hrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422483824014-h48ouhhaqjnve1nv2jpa641lus86r9g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karyasa.hrapp",
+            "certificate_hash": "c9b1ceb3b3fba676a6b880c688ae4efd362cea9a"
+          }
+        },
+        {
+          "client_id": "422483824014-84qg4ru1ubbbsdlaq5ts6qo65sc1288e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnLyjT98C2Pqu25VKCE3MtiwaugFTy2Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422483824014-84qg4ru1ubbbsdlaq5ts6qo65sc1288e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
