@@ -72,8 +72,8 @@ class SearchScreen extends StatelessWidget {
                     delay: Duration(milliseconds: i * 20),
                     child: CardList(
                       title: user[i].fullname,
-                      subtitle: user[i].email,
-                      trailing: user[i].phone,
+                      trailing: user[i].email,
+                      subtitle: user[i].phone,
                     ),
                   ),
                 );

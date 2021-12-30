@@ -5,13 +5,13 @@ class CardList extends StatelessWidget {
   const CardList({
     Key? key,
     this.title,
-    this.subtitle,
     this.trailing,
+    this.subtitle,
   }) : super(key: key);
 
   final String? title;
-  final String? subtitle;
   final String? trailing;
+  final String? subtitle;
 
   @override
   Widget build(BuildContext context) {

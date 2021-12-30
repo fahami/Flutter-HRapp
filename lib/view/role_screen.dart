@@ -57,8 +57,8 @@ class RoleScreen extends StatelessWidget {
                               delay: Duration(milliseconds: i * 20),
                               child: CardList(
                                 title: role[i].title,
-                                subtitle: role[i].description,
-                                trailing: role[i].requirement,
+                                trailing: role[i].description,
+                                subtitle: role[i].requirement,
                               ),
                             );
                           },

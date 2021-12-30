@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_list.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import 'package:get/get.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hrapp/res/constant.dart';
 import 'package:hrapp/utils/firebase.dart';
 import 'package:lottie/lottie.dart';
